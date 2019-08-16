@@ -1,6 +1,6 @@
 export class FizzBuzz {
     constructor(number) {
-        this.number = number;
+        this.number = parseInt(number);
     }
 
     say() {
