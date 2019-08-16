@@ -1,6 +1,6 @@
-import {FizzBuzz} from "./fizzBuzz/secondPractice/FizzBuzz";
-import {GameNumber} from "./fizzBuzz/forthPractice/GameNumber";
+import { FizzBuzz } from "./fizzBuzz/forthPractice/FizzBuzz";
+import { GameNumber } from "./fizzBuzz/forthPractice/GameNumber";
 
-const fizzBuzzRule = (num) => new FizzBuzz().say(num);
-const gameNumber = new GameNumber(100, fizzBuzzRule);
+const fizzBuzz = new FizzBuzz();
+const gameNumber = new GameNumber(100, (num) => fizzBuzz.say(num));
 console.log(gameNumber.print());
