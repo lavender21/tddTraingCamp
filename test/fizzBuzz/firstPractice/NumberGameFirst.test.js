@@ -1,4 +1,5 @@
-import { NumberGame } from "../src/NumberGameFirst";
+
+import {NumberGame} from "../../../src/fizzBuzz/firstPractice/NumberGameFirst";
 
 const expectNumber = (value, expected) => {
     const numberGame = new NumberGame(value);

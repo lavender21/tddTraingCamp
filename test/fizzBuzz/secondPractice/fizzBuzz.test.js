@@ -1,5 +1,6 @@
-import { FizzBuzz } from "../src/FizzBuzz";
-import { NumberGame } from "../src/NumberGame";
+
+import {NumberGame} from "../../../src/fizzBuzz/secondPractice/NumberGame";
+import {FizzBuzz} from "../../../src/fizzBuzz/secondPractice/FizzBuzz";
 
 describe('test fizzBuzz game',() => {
     it('should return 1 when input 1',() => {

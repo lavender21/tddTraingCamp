@@ -1,4 +1,4 @@
-import { NumberGame } from "../../src/thirdPractice/NumberGame";
+import { NumberGame } from "../../../src/fizzBuzz/thirdPractice/NumberGame";
 
 describe('test numberGame rule',() => {
     it('print 1 - 20',() => {

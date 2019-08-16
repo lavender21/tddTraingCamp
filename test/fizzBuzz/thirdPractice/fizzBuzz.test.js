@@ -1,4 +1,4 @@
-import { FizzBuzz } from "../../src/thirdPractice/FizzBuzz";
+import { FizzBuzz } from "../../../src/fizzBuzz/thirdPractice/FizzBuzz";
 
 describe('Test FizzBuzz rules',() => {
     it('should return number 1 when input number 1',() => {

@@ -1,4 +1,4 @@
-import { FizzBuzz } from "../thirdPractice/FizzBuzz";
+import { FizzBuzz } from "./FizzBuzz";
 
 export class NumberGame {
     constructor(length) {
